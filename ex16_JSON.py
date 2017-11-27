@@ -28,3 +28,8 @@ print(jsonDump)
 # Write the Dump to a File:
 with open("book.txt", "w") as file:
     file.write(jsonDump)
+
+# Read the File
+with open("book.txt", "r") as file_read:
+    jsonRead = file_read.read()
+print(jsonRead)
